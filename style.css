@@ -175,8 +175,7 @@ width:auto;
 }
 
 .nav-links{
-display:flex;
-gap:25px;
+display:none
 }
 
 .nav-links a{

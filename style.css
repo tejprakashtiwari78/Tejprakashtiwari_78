@@ -201,3 +201,52 @@ display:none;
 word-break: break-word;
 overflow-wrap: break-word;
 }
+#theme-toggle{
+position:fixed;
+top:20px;
+right:20px;
+padding:10px 15px;
+border:none;
+border-radius:25px;
+background:#2563EB;
+color:white;
+font-weight:600;
+cursor:pointer;
+z-index:1000;
+}
+
+.neon-mode{
+background:
+radial-gradient(circle at top left,
+rgba(59,130,246,.9) 0%,
+transparent 40%),
+
+radial-gradient(circle at bottom right,
+rgba(6,182,212,.9) 0%,
+transparent 40%),
+
+linear-gradient(
+135deg,
+#000000,
+#020617,
+#0F172A,
+#020617,
+#000000
+) !important;
+}
+
+.neon-mode .card{
+box-shadow:0 0 25px rgba(59,130,246,.7);
+border:1px solid rgba(96,165,250,.7);
+}
+
+.neon-mode .btn{
+box-shadow:0 0 20px rgba(37,99,235,.8);
+}
+
+.neon-mode .profile-pic{
+box-shadow:
+0 0 20px rgba(37,99,235,.8),
+0 0 40px rgba(37,99,235,.6),
+0 0 60px rgba(37,99,235,.4);
+}

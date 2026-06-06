@@ -28,3 +28,16 @@ observer.observe(card);
 });
 
 console.log("🚀 Tej Prakash Tiwari Portfolio Loaded Successfully");
+const toggleBtn = document.getElementById("theme-toggle");
+
+toggleBtn.addEventListener("click", () => {
+
+document.body.classList.toggle("neon-mode");
+
+if(document.body.classList.contains("neon-mode")){
+toggleBtn.innerHTML = "🌌 Normal Mode";
+}else{
+toggleBtn.innerHTML = "⚡ Neon Mode";
+}
+
+});

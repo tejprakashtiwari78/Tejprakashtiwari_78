@@ -248,3 +248,10 @@ box-shadow:
 0 0 40px rgba(37,99,235,.6),
 0 0 60px rgba(37,99,235,.4);
 }
+#theme-toggle{
+    position: fixed !important;
+    top: 20px !important;
+    right: 20px !important;
+    background: red !important;
+    z-index: 99999 !important;
+}

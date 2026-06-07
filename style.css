@@ -250,3 +250,14 @@ box-shadow:
 0 0 40px rgba(37,99,235,.6),
 0 0 60px rgba(37,99,235,.4);
 }
+.tpv-logo{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 9999;
+}
+
+.tpv-logo img{
+    width: 80px;
+    height: auto;
+}

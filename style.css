@@ -202,16 +202,22 @@ word-break: break-word;
 overflow-wrap: break-word;
 }
 #theme-toggle{
-    position: fixed;
-    top: 90px;
-    right: 20px;
-    z-index: 1000;
+    position: fixed !important;
+    top: 20px !important;
+    right: 20px !important;
+
+    background: #2563EB !important;
+    color: white !important;
+
     padding: 10px 15px;
     border: none;
     border-radius: 25px;
-    background: #2563EB;
-    color: white;
     font-weight: 600;
+    cursor: pointer;
+
+    box-shadow: 0 0 20px rgba(37,99,235,.8);
+
+    z-index: 99999 !important;
 }
 .neon-mode{
 background:
@@ -247,11 +253,4 @@ box-shadow:
 0 0 20px rgba(37,99,235,.8),
 0 0 40px rgba(37,99,235,.6),
 0 0 60px rgba(37,99,235,.4);
-}
-#theme-toggle{
-    position: fixed !important;
-    top: 20px !important;
-    right: 20px !important;
-    background: red !important;
-    z-index: 99999 !important;
 }
